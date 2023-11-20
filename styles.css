@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0.5% auto;
+    text-align: center;
+}
+
+.navbar {
+    background-color: black;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin: 0px 30px;
+}
+
+.navbar-brand img{
+    height: 40px;
+}
+
+header {
+    margin: auto;
+}
+
+#hero {
+    font-size: 5rem;
+    color: rgb(3, 74, 3);
+    text-align: center;
+    padding: 25px;
+    height: 635px;
+    background-image: url('media/bgAgri.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero h6 {
+    color: black;
+}
+
+#about {
+    text-align: center;
+    padding: 5%;
+}
+
+#about h1{
+    color: green;
+}
+
+#about h6{
+    text-align: justify;
+    line-height: 1.5; 
+    padding: 2% 5%;
+}
+
+.downloads {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 10%;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+}
+
+.downloadBtn {
+    margin: 20px 10px;
+}
+
+.downloads h3 {
+    font-size: 3.5rem;
+    color: green;
+    font-weight: bolder;
+}
+
+.developers {
+    text-align: center;
+    padding: 50px;
+}
+
+.developers h1{
+    color: green;
+}
+
+.dev {
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+    margin: 40px 10px;
+}
+
+.developers img {
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul{
+    list-style: none;
+    text-align: center;
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer ul{
+    padding: 0px;
+}
+
+@media screen and (max-width : 990px){
+    #download{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-link{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 550px){
+    .downloadBtn{
+        margin: 5px;
+    }
+    #hero h1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .dev{
+        margin: 10px 10px;
+    }
+    .developers h1{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width : 350px){
+    .downloads h3{
+        font-size: 2.5rem;
+    }
+    #about h1{
+        font-size: 2rem;
+        margin: 15px;
+    }
+    .developers img {
+        height: 80px;
+        width: 80px;
+    }
+}
